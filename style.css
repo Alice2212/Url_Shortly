@@ -1,0 +1,492 @@
+/* importing google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+/* global styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: hsl(180, 66%, 49%);
+  border: none;
+  padding: 1.5rem 3rem;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+/* End of global styling */
+
+/* custom styling begins */
+
+/* header stylin begins */
+.main-header {
+  /* position: sticky;
+  top: 0px; */
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 3rem;
+  align-items: center;
+  flex-flow: wrap;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#logo {
+  flex: 1 1 -2rem;
+  padding-right: 5rem;
+}
+
+nav .nav-links {
+  display: flex;
+  flex: 3 1 30rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+
+nav .registration-links {
+  display: flex;
+  flex: 1 1 10rem;
+  align-items: center;
+  gap: 5rem;
+}
+
+nav .nav-links a,
+nav .registration-links a {
+  color: hsl(257, 7%, 63%);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-links a:hover,
+nav .registration-links a:hover {
+  background: hsl(180, 66%, 49%);
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: hsl(260, 8%, 14%);
+}
+/* header styling ends */
+
+/* main styling begins.................................*/
+
+/* hero section styling begins here */
+.hero {
+  min-height: 90vh;
+  padding-top: 5rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero .hero-text {
+  display: flex;
+  flex: 3 1 60rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 3rem;
+}
+
+.hero .hero-text h1 {
+  font-size: 6rem;
+  line-height: 6.5rem;
+}
+
+.hero .hero-text p {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: hsl(257, 7%, 63%);
+  padding: 3rem 0;
+}
+
+.hero img {
+  flex: 1 1 40rem;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+  height: 50%;
+  width: 50%;
+}
+/* hero section styling ends here */
+
+/* styling for url link begins */
+.shorten-url-link {
+  min-height: 15vh;
+  width: 50vw;
+  margin: auto;
+  background: url("images/bg-boost-desktop.svg");
+  background-color: hsl(255, 11%, 22%);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  /* align-items: center; */
+}
+
+form input {
+  flex: 1 1 40rem;
+  width: 50%;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 10px;
+}
+
+form button {
+  margin-left: 2rem;
+  border-radius: 10px;
+}
+
+/* styling for url link ends */
+
+/* styling section for the advance statistics section begins */
+#statistics {
+  min-height: 100vh;
+  margin: auto;
+  background: hsl(0, 0%, 95%);
+}
+
+.statistics-text {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.statistics-text h2 {
+  padding: 2rem 3rem;
+  font-size: 5rem;
+}
+
+.statistics-text p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: hsl(0, 0%, 46%);
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  padding-top: 4rem;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.statistics-card {
+  flex: 1 1 25rem;
+  min-height: 45vh;
+  margin: 3rem 2rem;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.card-icon {
+  padding: 2rem 3rem;
+  margin-top: -6rem;
+}
+
+.card-icon img {
+  background: hsl(255, 11%, 22%);
+  border-radius: 50%;
+  padding: 1.6rem;
+}
+
+.statistics-card h4 {
+  font-size: 2.5rem;
+  color: hsl(255, 11%, 22%);
+  padding: 1rem 1.5rem;
+}
+
+.statistics-card p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: hsl(0, 0%, 46%);
+  padding: 1rem 1.5rem 1rem 2rem;
+}
+
+/* .line {
+  border: none;
+  height: 5px;
+  width: 50rem;
+  background-color: hsl(180, 66%, 49%);
+  margin: 0rem 0rem 0rem 40rem ;
+} */
+/* styling section for the advance statistics section ends */
+
+/* section for getting started begins */
+.get-started {
+  min-height: 30vh;
+  background: url("images/bg-boost-desktop.svg");
+  background-color: hsl(255, 11%, 22%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.get-started h2 {
+  font-size: 3rem;
+  word-spacing: 0.5rem;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+/* section for getting started ends */
+/* main styling ends .................................*/
+
+/* footer styling begins */
+#footer {
+  min-height: 40vh;
+  background: hsl(260, 8%, 14%);
+}
+
+.footer-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding-top: 3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  flex: 1 1 10rem;
+  padding-right: 40rem;
+  width: 5vw;
+  height: 10vh;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 40rem;
+}
+
+.item-ul {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.item-ul h5 {
+  padding-bottom: 2rem;
+  color: hsl(0, 0%, 95%);
+  font-size: 1rem;
+}
+
+.item-ul ul li {
+  padding: 0 0 1rem 0;
+}
+
+.item-ul ul li a {
+  color: hsl(0, 0%, 46%);
+}
+
+.footer-icon {
+  display: flex;
+  flex: 1 1 20rem;
+  padding: 2rem;
+}
+
+.footer-icon ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-icon ul li {
+  padding: 1rem;
+}
+
+/* footer styling ends */
+
+/* custom styling ends */
+
+/* media query */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    margin-left: 11rem;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  #nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: hsl(260, 8%, 14%);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 2rem 0;
+  }
+
+  #nav-menu.active {
+    left: 0;
+  }
+
+  .hero .hero-text h1 {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 6.5rem;
+  }
+
+  .hero .hero-text p {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  #hero-button {
+    margin: 0 10rem auto;
+    margin-bottom: 4rem;
+  }
+
+  .shorten-url-link {
+    min-height: 15vh;
+    width: 95%;
+    margin: 2rem auto;
+    border-radius: 5px;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    /* align-items: center; */
+  }
+
+  form input {
+    flex: 1 1 4rem;
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #form-button {
+    margin: 2rem 0 auto;
+  }
+
+  .hero .hero-text {
+    order: 2;
+  }
+
+  .hero img {
+    order: 1;
+  }
+
+  .card-icon {
+    padding-left: 15rem;
+    margin-top: -6rem;
+  }
+
+  .footer-logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .footer-item {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 40rem;
+}
+
+.item-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.item-ul h5 {
+  padding-bottom: 2rem;
+  color: hsl(0, 0%, 95%);
+  font-size: 1rem;
+}
+
+.item-ul ul li {
+  padding: 0 0 1rem 0;
+}
+
+.item-ul ul li a {
+  color: hsl(0, 0%, 46%);
+}*/
+
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 20rem;
+    padding: 2rem;
+  }
+
+}

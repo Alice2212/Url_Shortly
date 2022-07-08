@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link to custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!--header section begins here  -->
+    <header class="main-header">
+      <nav>
+        <img src="images/logo.svg" alt="shortly logo" id="logo" />
+
+        <!--ul Routes  begins-->
+        <ul id="nav-menu" class="nav-links">
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
+        </ul>
+        <!-- ul Routes end -->
+
+        <!-- signIn/Register ul begins -->
+        <ul id="nav-menu" class="registration-links">
+          <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sign</a></li>
+        </ul>
+        <!-- signIn/Register ul begins -->
+
+        <!-- hamburger begins-->
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <!-- hamburger ends  -->
+      </nav>
+    </header>
+    <!-- header section ends here -->
+
+    <main>
+      <!-- hero section begins here -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>More than Just Shorter Links</h1>
+          <p>
+            Build your brand's recognition and get datailed insights on how your
+            links are perfoming.
+          </p>
+          <button id="hero-button">Get Started</button>
+        </div>
+
+        <img
+          src="images/illustration-working.svg"
+          alt="man working on a laptop"
+        />
+      </section>
+      <!-- hero section ends here -->
+
+      <!-- link section begins here -->
+      <section class="shorten-url-link">
+        <form action="">
+          <input type="text" placeholder="shorten a link here..." />
+          <button id="form-button">Shorten it!</button>
+        </form>
+      </section>
+      <!-- link section ends here -->
+
+      <!-- section for the statistics dashboard begins-->
+      <section id="statistics">
+        <div class="statistics-text">
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with<br />
+            our advanced statistics dashboard
+          </p>
+        </div>
+        <!-- <hr class="line"> -->
+        <!-- statistics dashboard cards -->
+        <div class="cards">
+          <!-- card 1 for brand recognition -->
+          <div class="statistics-card card1">
+            <div class="card-icon">
+              <img src="images/icon-brand-recognition.svg" alt="" />
+            </div>
+            <h4>Brand Recognition</h4>
+            <p>
+              Build your brand recognition with each click. Generic links don't
+              mean a thing. Branded links help instill confidence in your
+              content
+            </p>
+          </div>
+
+          <!-- card 2 for Detailed Records -->
+          <div class="statistics-card card2">
+            <div class="card-icon">
+              <img src="images/icon-detailed-records.svg" alt="" />
+            </div>
+            <h4>Detailed Records</h4>
+            <p>
+              Gain insight into who is clicking your links. knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+
+          <!-- card 3 for fully customizable -->
+          <div class="statistics-card card3">
+            <div class="card-icon">
+              <img src="images/icon-fully-customizable.svg" alt="" />
+            </div>
+            <h4>Fully customizable</h4>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- section for the statistics dashboard  ends-->
+
+      <section class="get-started">
+        <h2>Boost your links today</h2>
+        <button>Get Started</button>
+      </section>
+    </main>
+
+    <!-- footer section begins -->
+    <footer id="footer">
+      <div class="footer-wrapper">
+        <img src="images/logo.svg" alt="logo" class="footer-logo" />
+
+        <div class="footer-item">
+          <!-- ul for features -->
+          <div class="item-ul">
+            <h5>Features</h5>
+            <ul>
+              <li><a href="">Link Shortening</a></li>
+              <li><a href="">Branded Links</a></li>
+              <li><a href="">Analytics</a></li>
+            </ul>
+          </div>
+
+          <!-- ul for features -->
+          <div class="item-ul">
+            <h5>Resources</h5>
+            <ul>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Developers</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+
+          <!-- ul for company -->
+          <div class="item-ul">
+            <h5>company</h5>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Our team</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- footer icon -->
+        <div class="footer-icon">
+          <!-- social media icon ul -->
+          <ul>
+            <li>
+              <a href=""><img src="images/icon-facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/icon-twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/icon-pinterest.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="images/icon-instagram.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+
+    <!-- link to js -->
+    <script src="app.js"></script>
+  </body>
+</html>
